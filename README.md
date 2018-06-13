@@ -5,8 +5,11 @@ python  and mashine learning
 power by 
 https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
 
-代码 比较简明详细，我还会上传 里边的So2数据csv表：“loadDataSo2_4.csv” 使用的时候需要 和代码放在同一路径。
-当然你也可以选择使用其他数据来试一试，但是你需要记得对数据做预处理
+代码 比较简明详细，我还会上传里边的So2数据csv表：“loadDataSo2_4.csv” 这个数据是18年1月1日0时到4月28日23时So2检测数据。
+数据来源 ：北京市数据来自北京市环境保护检测中心网站，power by  http://beijingair.sinaapp.com/
+根据它发布的数据，我用kettle 抽取清理出了So2这部分的数据进行测试
+使用数据的时候需要csv表和代码放在同一文件夹下也就是同一路径下。
+当然你也可以选择使用其他数据来试一试，但是你需要记得对数据做预处理（^_^~）
 
 代码环境python 3.6 以及大量的机器学习库，你可以选择下载Anaconda 对应版本 一劳永逸 就是可能会比较占内存，因为我的硬盘 也快极限了 所以我就手动下了 
 我需要的的几个库。调出“command” 也就是“cmd”  输入如下命令，如果你是 2 3兼容版本可以在python -py3 来切换pip的2和3版本
